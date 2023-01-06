@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Banner section style */
+header{
+    background: url(img/banner2.png);
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+    height:100vh;
+}
+.banner-section{
+    text-align: left;
+    position:absolute;
+    margin-left: 700px;
+    margin-top: 120px;
+}
+.main-title{
+    font-size: 65px;
+    color: #151414;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 20px;
+}
+
+.title-descriptin{
+    font-size:16px ;
+    color: #444343;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.btn-primary{
+    padding: 20px 30px;
+    border: 1px solid #F15B22;
+    border-radius: 5px;
+    background-color: #F15B22;
+    color: #ffffff;
+
+}
+.universal-sec{
+    margin-top: 120px;
+}
+/* about me style */
+.about-me{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+}
+.about-me img{
+    width: 400px;
+    height: auto;
+}
+.about-me-title h2{
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+.about-me-title p{
+    font-size:16px ;
+    color:  #444343;
+    margin-bottom: 20px ;
+    font-weight: 400;
+}
+.about-me-title ul {
+    list-style: none;
+}
+.about-me-title ul li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+.about-me-title ul li i{
+    color: rgb(113, 219, 113);
+    margin-right: 8px;
+}
+/* my skills style */
+.skill-title{
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.skill-main-title{
+    margin-top: 130px;
+    font-size: 40px;
+    text-align: center;
+}
+.skill-description{
+    font-size: 15px;
+    color: #444343;
+    text-align: center;
+    margin-top: 10px;
+}
+.skill-bar .skill-info{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+.skill-bar .info{
+    width: 80%;
+    height: 10px;
+    position: relative;
+    background-color: #44434392;
+    border-radius: 10px;
+}
+.skill-bar .info span{
+    position:absolute;
+    width: 40%;
+    background-color: #005FAC;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+/* my plans style */
+.universal-sec h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 35px;
+}
+.my-plans{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+}
+.plan-img{
+    margin-left: 40px;
+    width: 70px;
+    margin-bottom: 15px;
+}
+.plan-title{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151414;
+    margin-bottom: 10px;
+}
+.plan{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #737272;
+}
+/* mindset style */
+.title{
+    width:1000px ;
+    height: 300px;
+    background-image: url(img/gradient1.png),url(img/watch.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+.title h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 30px 0px 30px 30px;
+    padding: 50px 0px 0px 0px ;
+}
+.btn-2{
+    padding: 20px 45px;
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 15px;
+    color:#005FAC;;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+/* personal information */
+.information{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px;
+    background-color: #151414;
+}
+.personal-info h3{
+    color: #F8F8F8;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.personal-info p{
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.social-icon{
+    display: flex;
+    margin-left: -10px;
+}
+.social-icon img{
+    margin-left: 10px;
+    width: 30px;
+    height: auto;
+}
+.form-info h3{
+    color: #F8F8F8;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.form-info input{
+    padding:15px 45px;
+    background-color: transparent;
+    border:1px solid #F8F8F8;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.form-btn{
+    padding:15px 35px ;
+    background-color: #005FAC;
+    border: 1px solid #005FAC;
+    border-radius: 5px;
+    color: white;
+}
